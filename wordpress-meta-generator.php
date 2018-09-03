@@ -1,3 +1,4 @@
+//PASTE IN FUNCTIONS.PHP /theme/
 // Remove WordPress Meta Generator
 remove_action('wp_head', 'wp_generator');
  
