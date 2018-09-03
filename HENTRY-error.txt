@@ -1,3 +1,6 @@
+Corriger les erreurs hentry qui polluent Google search console
+Fix hentry errors in Google search console
+
 1. Create a meta.php file and paste :
 
 <div class="entry-meta">
