@@ -1,0 +1,12 @@
+1. Create a meta.php file and paste :
+
+<div class="entry-meta">
+<time class="updated" datetime="<?= get_post_time( 'c', true ); ?>"><?= get_the_date(); ?></time>
+<p>Published by : <span class="vcard author post-author"><span class="fn"><?php the_author(); ?></span></span><br>      	
+</p>
+</div>  
+
+
+2. Call the file meta in php (single / page / content)
+
+<?php get_template_part(‘entry-meta' ); ?> 
