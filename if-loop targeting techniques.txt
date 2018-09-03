@@ -15,3 +15,10 @@ Target specific page (s) according to a tag
 <?php   if ( has_tag( 'news' ) )  {?>  
 	<!-----------CODE-------------!> 
 <?php } ?> 
+
+Apply content based on language
+ <?php if($currentLan == 'en'){ ?>
+<!-----------CODE-------------!>
+ <?php }else{ ?>
+<!-----------CODE-------------!>
+ <?php } ?>
