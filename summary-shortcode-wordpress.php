@@ -1,6 +1,4 @@
 <?php 
-// Création sommaire
-// fonction d'assainissement des noms (accents, ponctuation etc)
 // si vous voulez seulement un niveau de titre spécifique il faut modifier les $matches
   function replace_ca($matches){
     return '<h'.$matches[1].$matches[2].' id="'.sanitize_title($matches[3]).'">'.$matches[3].'</h'.$matches[4].'>';
